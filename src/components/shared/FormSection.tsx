@@ -78,7 +78,7 @@ const FormSection = () => {
                   <FormControl>
                     <Input className="text-slate-900" placeholder="johndoe@gmail.com" {...field} />
                   </FormControl>
-                  <Button type="submit">
+                  <Button type="submit" className="md:w-1/4">
                     {loading ? <span className="flex items-center">Please Wait<LoaderCircle className="animate-spin size-4 ml-1"/></span>: <span className="flex items-center">Join Waitlist <SendHorizonal className="size-4 ml-1" /></span> }
                   </Button>
                 </div>
