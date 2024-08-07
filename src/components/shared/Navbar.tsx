@@ -7,6 +7,7 @@ const Navbar = () => {
       <div className="flex items-center justify-center gap-1">
           <Image src={LogoNoBg} alt="logo" width={50} height={50} />
         <span className="font-bold text-3xl uppercase">Influcourse</span>
+        <h1>Testing MVP branch</h1>
       </div>
     </nav>
   );
